@@ -1,0 +1,65 @@
+.header {
+    position: absolute;
+    background: none;
+    width: 100%;
+}
+
+body,ul,ol,p,.row {
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+    /* color: inherit; */
+}
+
+.bannerMain {
+    min-height: 100vh;
+}
+
+.ImageCOntainer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.sectionContainerBanner {
+    max-width: 451px;
+}
+
+.sectionContainerBanner h2 {
+    color: #fff;
+    font-size: 140px;
+}
+
+.sectionContainerBanner p {
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+}
+
+.sectionContainerBanner a {
+    min-width: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    border: 2px solid #fff;
+    color: #fff;
+    min-height: 43px;
+    margin: 20px 0px 0px;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: 0.6s all;
+}
+
+.sectionContainerBanner a:hover {
+    background: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+a {
+    transition: 0.6s all;
+}
