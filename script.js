@@ -19,3 +19,9 @@ $('.flexBox').click( function(e) {
     $('.flexBox').removeClass('active');
     $(this).addClass('active');
 })
+$('.sliderTestimonials').slick({
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    dots: true,
+    arrows: false,
+})

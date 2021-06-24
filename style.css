@@ -318,3 +318,236 @@ a.light:hover {
 .flexBox h6 {
     transition: 0.8s all;
 }
+.imageWrapperTestimonial {
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+}
+
+.testimonials .row {
+    align-items: center;
+}
+
+.testimonials {
+    padding: 100px 0px 50px;
+}
+
+.testimonials h2 {
+    color: #D68F5A;
+    text-align: center;
+    font-size: 54px;
+    position: relative;
+    padding-bottom: 40px;
+    margin-bottom: 80px;
+}
+
+.testimonials h2::after {content: "";display: block;width: 50%;max-width: 60px;position: absolute;bottom: 0;left: 0;right: 0;margin: auto;background: #D68F5A;height: 2px;}
+
+.innerSliderTestimonials p {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    line-height: 40px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+
+.innerSliderTestimonials h6 {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.testimonials .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px 0px;
+}
+
+.testimonials .slick-dots li button {
+    display: none;
+}
+
+.testimonials .slick-dots li {
+    max-width: 16px;
+    margin: 0px 4px;
+    background: #000000;
+    display: block;
+    height: 2px;
+    width: 100%;
+}
+
+.testimonials .slick-dots li.slick-active {
+    background: #d78f5a;
+}
+.boxCOntainer {
+    min-height: 360px;
+    margin-bottom: 30px;
+    padding: 40px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+
+.innerBox {
+    border: 2px solid #D68F5A;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    color: #D68F5A;
+    text-align: center;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentBoxContainer h2 {
+    font-size: 100px;
+}
+
+.contentBoxContainer h3 {
+    max-width: 124px;
+    font-size: 26px;
+}
+
+.boxCOntainerw {
+    min-height: 380px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-size: cover;
+}
+
+.contentLongbox {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.percent {
+    width: 50%;
+}
+
+.contentInnerLongBox {
+    width: 70%;
+}
+
+.percent h2 {
+    color: #fff;
+    font-size: 240px;
+    position: relative;
+}
+
+.percent h2 span {
+    position: absolute;
+    font-size: 84px;
+    top: 50px;
+}
+
+.contentInnerLongBox h3 {
+    font-size: 64px;
+}
+
+.contentInnerLongBox h4 {
+    font-size: 30px;
+}
+
+.contentInnerLongBox p {
+    /* max-width: 350px; */
+    padding-right: 20%;
+    margin: 20px 0px;
+    line-height: 24px;
+}
+
+.contentInnerLongBox a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    border: 2px solid #000;
+    color: #000;
+    padding: 10px 30px;
+    min-height: 42px;
+}
+.saty {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.inputCNtainerSignU {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.inputCNtainerSignU input {
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid #000;
+    min-height: 50px;
+}
+
+.signUpButton {
+    position: absolute;
+    right: 0px;
+    border: 2px solid #D68F5A;
+    color: #D68F5A;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 126px;
+    min-height: 50px;
+    transition: 0.7s all;
+}
+
+.signUpButton:hover {
+    background: #D68F5A;
+    color: #fff;
+}
+
+.saty h6 {
+    width: 35%;
+    font-size: 24px;
+}
+
+*:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+.footer {
+    margin: 70px 0px;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer li:nth-child(even) {
+    margin: 0px 20px;
+    /* font-size: 40px; */
+}
+
+.footer li a {
+    font-size: 30px;
+    color: #D68F5A;
+}
+
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.follow h6 {
+    font-size: 24px;
+}
