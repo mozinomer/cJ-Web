@@ -1,20 +1,3 @@
-$('.slideContainerBanner').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    dots: false,
-    asNavFor: '.sliderFor'
-});
-$('.sliderFor').slick({
-    slidesToShow: 6,
-    slidesToScroll: 6,
-    asNavFor: '.slideContainerBanner',
-    dots: false,
-    centerMode: false,
-    vertical: true,
-    focusOnSelect: true
-});
 $('.flexBox').click( function(e) {
     $('.flexBox').removeClass('active');
     $(this).addClass('active');
@@ -24,4 +7,11 @@ $('.sliderTestimonials').slick({
     slidesToShow: 1,
     dots: true,
     arrows: false,
+})
+$('.innerSliderFor').click( function(e){
+    var slideNumber = $(this).attr('data-id');
+    $('.innerSliderFor').removeClass('active');
+    $(this).addClass('active');
+    $('.sliderInnerContainer').removeClass('active');
+    $('.sliderInnerContainer#'+slideNumber).addClass('active');
 })

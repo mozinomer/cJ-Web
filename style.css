@@ -18,7 +18,8 @@ body,ul,ol,p,.row {
 }
 
 .ImageCOntainer {
-    min-height: 100vh;
+    height: 100vh;
+    min-height: 600px;
     display: flex;
     align-items: center;
     background-size: cover;
@@ -89,10 +90,6 @@ img {
     display: block;
     max-width: 100%;
 }
-.sliderFor {
-    display: none;
-}
-
 .section2Home img {
     width: 100%;
 }
@@ -524,7 +521,7 @@ a.light:hover {
 }
 
 .footer {
-    margin: 70px 0px;
+    margin: 100px 0px;
 }
 
 .footer ul {
@@ -550,4 +547,123 @@ a.light:hover {
 
 .follow h6 {
     font-size: 24px;
+}
+footer {
+    background: #000000;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.logoContainerAndUl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoContainerAndUl ul {
+    display: flex;
+    align-items: center;
+}
+
+.logoContainerAndUl a {
+    color: #fff;
+}
+
+.logoContainerAndUl li:nth-child(even) {
+    margin: 0px 22px;
+    font-size: 14px;
+}
+.contentInnerLongBox a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.logoContainerAndUl a:hover {
+    color: #d78f5a;
+}
+.header a:hover {
+    color: #d78f5a;   
+}
+.innerBox {
+    position: relative;
+}
+
+.readOurHistory {
+    position: absolute;
+    background: #D68F5A;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    bottom: -100%;
+    transition: 0.6s all;
+}
+
+.innerBox {
+    overflow: hidden;
+}
+
+.innerBox:hover .readOurHistory {
+    bottom: 0px;
+}
+
+.readOurHistory h6 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.readOurHistory h4 {
+    font-size: 49px;
+    font-weight: 400;
+    margin: 0px;
+}
+.brandContainer .dark {
+    max-width: max-content;
+    margin: auto;
+    padding: 0px 50px;
+    margin: 30px auto 0px;
+}
+.flexBox {
+    cursor: pointer;
+}
+.sliderInnerContainer {
+    display: none;
+}
+.sliderInnerContainer.active {
+    display: block;
+}
+.sliderFor {
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    right: 0px;
+    text-align: right;
+    right: 70px;
+    bottom: 50px;
+    font-size: 14px;
+}
+
+.bannerMain {
+    position: relative;
+}
+
+.innerSliderFor h3 {
+    font-size: 16px;
+    border-bottom: 4px solid transparent;
+    font-weight: 300;
+    margin-bottom: 9px;
+    cursor: pointer;
+    padding-bottom: 7px;
+}
+
+.innerSliderFor.active h3 {
+    border-color: #D68F5A;
+    font-weight: 500;
 }
