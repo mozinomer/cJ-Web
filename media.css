@@ -1,0 +1,378 @@
+@media only screen and (max-width: 767px) {
+    .header {
+        display: none;
+    }
+
+    .contentLongbox {
+        flex-wrap: wrap;
+    }
+
+    .percent h2 span {
+        right: -90px;
+        font-size: 30px;
+        position: relative;
+        bottom: auto;
+        top: auto;
+        right: auto;
+    }
+
+    .slideNewType {
+        overflow: hidden;
+    }
+
+    .flexBox {
+        max-width: 100%;
+        height: auto;
+        flex: 0 100%;
+        overflow: hidden;
+        min-height: auto;
+    }
+
+    .flexBox.active {
+        height: auto;
+    }
+
+    .bannerMain {
+        overflow: hidden;
+    }
+
+    .section2Home {
+        overflow: hidden;
+    }
+
+    .fetaureBrand {
+        overflow: hidden;
+    }
+
+    .slideNewType {
+        overflow: hidden;
+        /* flex-direction: column; */
+        display: block;
+    }
+
+    .testimonials {
+        overflow: hidden;
+        padding: 20px 0px;
+    }
+
+    .boxes {
+        overflow: hidden;
+    }
+
+    .footer {
+        overflow: hidden;
+    }
+
+    footer {
+        overflow: hidden;
+    }
+
+    .logoContainerAndUl {
+        flex-direction: column-reverse;
+    }
+
+    .logoContainerAndUl ul {
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 100%;
+        justify-content: space-around;
+        margin: 40px 0px 40px;
+    }
+
+    .saty {
+        flex-direction: column;
+    }
+
+    .saty h6 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .follow {
+        flex-direction: column;
+        margin: 30px 0px 0px;
+    }
+
+    .footer {
+        margin: 30px 0px 30px;
+    }
+
+    .logoContainerAndUl ul li {
+        margin: 0px 0px 20px !important;
+    }
+
+    .logoContainerAndUl ul li a {
+        font-size: 11px;
+    }
+
+    .logoContainerAndUl img {
+        margin-bottom: 30px;
+    }
+
+    .ImageCOntainer {
+        background-position: center;
+        min-height: 400px;
+        height: 400px;
+    }
+
+    .sectionContainerBanner h2 {
+        font-size: 70px;
+    }
+
+    .sectionContainerBanner p {
+        font-size: 12px;
+        max-width: 60%;
+        line-height: 23px;
+    }
+
+    .sectionContainerBanner a {
+        border-width: 1px;
+        font-size: 13px;
+        min-height: auto;
+        padding: 8px;
+        margin: 30px 0px 0px;
+    }
+
+    .bannerMain {
+        min-height: auto;
+    }
+
+    .sliderFor {
+        display: flex;
+        flex-direction: row;
+        overflow: scroll;
+        position: relative;
+        max-width: 100%;
+        width: 100%;
+        bottom: auto;
+        right: auto;
+        top: auto;
+    }
+
+    .sliderFor > div {
+        margin: 0px 20px;
+    }
+
+    .innerSliderFor h3 {
+        color: #000;
+        margin: 20px 0px 0px;
+    }
+
+    .headingContainer h2 {
+        font-size: 32px;
+        font-weight: 1000;
+    }
+
+    .section2Home a {
+        font-size: 12px;
+        min-height: auto;
+        padding: 10px 30px;
+        border-width: 1px;
+    }
+
+    .fetaureBrand {
+        padding: 30px 0px;
+    }
+
+    .fetaureBrand h2 {
+        font-size: 32px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .buttonsCOntainers a {
+        font-size: 13px;
+        min-height: auto;
+        padding: 10px 30px;
+        margin-bottom: 30px;
+    }
+
+    .buttonsCOntainers {
+        margin: 0px;
+    }
+
+    .brandContainer li {
+        flex: 0 50%;
+        max-width: 50%;
+    }
+
+    .brandContainer {
+        margin: 0px -15px;
+    }
+
+    a.dark {
+        border-width: 1px;
+        font-size: 13px;
+        min-height: auto;
+        padding: 10px 40px !important;
+    }
+
+    .flexContainer {min-height: auto;max-height: 100%;height: 80px;background-blend-mode: multiply;background-color: #00000073;}
+
+    .flexBox.active .flexContainer {
+        padding: 20px;
+    }
+
+    .flexBox h6 {
+        transform: none;
+        left: auto;
+        right: 20px;
+        bottom: 10px;
+        font-size: 13px;
+    }
+
+    .flexBox.active .flexContainer {
+        height: 340px;
+    }
+
+    .boxContainer h3 {
+        font-size: 20px;
+    }
+
+    .boxContainer h2 {
+        font-size: 42px;
+    }
+
+    .boxContainer a {
+        margin: 20px 0px 0px;
+        padding: 10px 0px 0px;
+    }
+
+    .testimonials {}
+
+    .testimonials h2 {
+        font-size: 32px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+
+    h2 {}
+
+    .innerSliderTestimonials p {
+        line-height: 22px;
+        font-size: 13px;
+        margin-bottom: 30px;
+        color: #fff;
+    }
+
+    .innerSliderTestimonials h6 {
+        font-size: 13px;
+        color: #fff;
+    }
+
+    .imageWrapperTestimonial {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        row-gap: 0;
+        z-index: -1;
+        background-blend-mode: multiply;
+        background-color: #00000085;
+    }
+
+    .testimonials {
+        position: relative;
+        margin: 40px 0px;
+        padding: 90px 0px;
+    }
+
+    .testimonials .col-md-4 {
+        position: inherit;
+    }
+
+    .testimonials .slick-dots li {
+        background: #fff;
+    }
+
+    .contentBoxContainer h2 {
+        font-size: 50px;
+    }
+
+    .contentBoxContainer h3 {
+        font-size: 15px;
+    }
+
+    .boxCOntainer {
+        min-height: 200px;
+        padding: 20px;
+    }
+
+    .innerBox {
+        min-height: auto;
+    }
+
+    .readOurHistory h6 {
+        font-size: 15px;
+    }
+
+    .readOurHistory h4 {
+        font-size: 34px;
+    }
+
+    .boxCOntainerw {
+        padding: 10px 20px;
+    }
+
+    .percent h2 {
+        font-size: 100px;
+    }
+
+    .contentInnerLongBox h3 {
+        font-size: 32px;
+    }
+
+    .contentLongbox {
+        display: block;
+    }
+
+    .contentInnerLongBox {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .contentInnerLongBox h4 {
+        font-size: 20px;
+    }
+
+    .contentInnerLongBox p {
+        padding: 0px;
+        line-height: 22px;
+        font-size: 13px;
+    }
+
+    .contentInnerLongBox a {
+        min-height: auto;
+        padding: 10px 40px;
+        font-size: 13px;
+        border-width: 1px;
+        /* margin-bottom: 30px; */
+    }
+
+    .boxes .col-md-8 {
+        order: 4;
+    }
+
+    .inputCNtainerSignU {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .signUpButton {
+        position: relative;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        min-height: auto;
+        padding: 10px 20px;
+        min-width: auto;
+        font-size: 13px;
+        border-width: 1px;
+    }
+
+    .inputCNtainerSignU input {
+        width: 70%;
+        min-height: auto;
+        line-height: 27px;
+    }
+}
