@@ -2,6 +2,8 @@
     position: absolute;
     background: none;
     width: 100%;
+    z-index: 999999;
+    padding: 40px 0px;
 }
 
 body,ul,ol,p,.row {
@@ -62,4 +64,257 @@ a:hover {
 
 a {
     transition: 0.6s all;
+}
+.innerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuContainer ul {
+    display: flex;
+    align-items: center;
+}
+
+.menuContainer ul li:nth-child(even) {
+    margin: 0px 31px;
+}
+
+.menuContainer a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.sliderFor {
+    display: none;
+}
+
+.section2Home img {
+    width: 100%;
+}
+
+.fetaureBrand {
+    padding: 100px;
+    background: #F0F0F0;
+}
+
+.fetaureBrand .row {
+    align-items: center;
+}
+
+.fetaureBrand h2 {
+    font-size: 54px;
+    position: relative;
+    padding-bottom: 40px;
+    margin-bottom: 70px;
+}
+
+.brandContainer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: row;
+}
+
+.brandContainer li {
+    width: 33%;
+    flex: 0 33%;
+    padding: 0px 10px;
+}
+
+.imageWrapper img {
+    max-height: 220px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.brandname {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    min-height: 123px;
+}
+
+.container {
+    max-width: 1350px;
+}
+.buttonsCOntainers {display: flex;align-items: center;justify-content: space-between;margin: 40px 0px 0px;}
+
+.buttonsCOntainers a {
+    width: 48%;
+}
+
+a.dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #D68F5A;
+    min-height: 50px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+a.dark:hover {
+    background: #D68F5A;
+    color: #fff;
+}
+
+a.light {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #D68F5A;
+    color: #fff;
+    border: 2px solid #D68F5A;
+}
+
+a.light:hover {
+    background: none;
+    color: #D68F5A;
+}
+.fetaureBrand h2:after,
+.headingContainer h2:after
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #D68F5A;
+    max-width: 50px;
+    position: absolute;
+    bottom: 0px;
+}
+.headingContainer h2:after {
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.headingContainer h2 {
+    position: relative;
+    padding-bottom: 50px;
+    font-size: 54px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0px auto 50px;
+}
+.section2Home p {
+    max-width: 700px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    margin: auto;
+}
+.section2Home a {
+    max-width: max-content;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: -o-max-content;
+    padding: 0px 40px;
+    margin: 50px auto;
+}
+.section2Home  {
+    padding: 100px 0px 5px;
+}
+.slideNewType {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flexBox {
+    width: 100%;
+    max-width: 14%;
+    min-height: 780px;
+}
+
+.flexBox.active {
+    max-width: 100%;
+}
+
+.flexContainer {
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+
+.flexBox.active .flexContainer {
+    padding: 80px;
+    color: #fff;
+}
+
+.boxContainer h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.boxContainer h2 {
+    font-size: 70px;
+}
+
+.boxContainer a {
+    position: relative;
+    color: #D68F5A;
+    font-weight: 400;
+    margin: 40px 0px 0px;
+    padding: 30px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.boxContainer a i {
+    margin-left: 20px;
+}
+
+.boxContainer a:after {
+    position: relative;
+    /* padding-top: 30px; */
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #D68F5A;
+    position: absolute;
+    top: 0px;
+    content: "";
+}
+.boxContainer {
+    display: none;
+}
+.flexBox.active 
+ .boxContainer {
+    display: block;
+    max-width: max-content;
+}
+.flexBox {
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -o-transition: all 2s;
+  transition: all 2s;
+}
+.flexContainer {
+    position: relative;
+}
+
+.flexContainer h6 {
+    position: absolute;
+    bottom: 110px;
+    right: -60px;
+    color: #fff;
+    font-size: 20px;
+    transform: rotate(-90deg);
+}
+.flexBox.active h6 {
+    opacity: 0;
+    visibility: hidden;
+}
+.flexBox h6 {
+    transition: 0.8s all;
 }

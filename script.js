@@ -15,3 +15,7 @@ $('.sliderFor').slick({
     vertical: true,
     focusOnSelect: true
 });
+$('.flexBox').click( function(e) {
+    $('.flexBox').removeClass('active');
+    $(this).addClass('active');
+})
